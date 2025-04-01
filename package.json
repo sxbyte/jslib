@@ -1,0 +1,13 @@
+{
+  "name": "jslib",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node .dev",
+    "build": "rm -rf dist && tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
